@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Rokkitt&display=swap");
+/* 
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rokkitt', serif;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* border: 1px solid black; */
+}
+/* container */
+.container{
+    padding: 3% 7%;
+}
+
+/* button */
+.btn_login{
+    background-color: #00B103;
+    padding: 10px 25px;
+    border-radius: 0px 25px;
+    color: #fff;
+    text-decoration: none;
+}
+.btn_start{
+    background: rgba(227, 12, 12, 0.72);
+    padding: 10px 25px;
+    border-radius: 0px 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* heaading */
+.heading1{
+    font-size: 60px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+.subheading1{
+    font-size: 25px;
+    font-family: 'Rokkitt', serif;
+    margin-bottom: 40px;
+}
+
+/* Navbar */
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 30%;
+}
+nav .logo img{
+    width: 180px;
+}
+nav ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
